@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Сайт ужасов</title>
+</head>
+<body>
+    <header class="dark-header">
+        <h1 class="blood-text">Добро пожаловать в мир ужаса</h1>
+        <p class="blood-text">Исследуйте тьму</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about" class="blood-text">О проекте</a></li>
+            <li><a href="#contact" class="blood-text">Контакты</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="horror-section">
+        <h2 class="blood-text">О проекте</h2>
+        <p class="blood-text">Добро пожаловать в ужасающий мир, где духи и призраки бродят по ночам. Остерегайтесь темных углов и шумов в ночи, ведь здесь ничто не так, как кажется. Возможно, вы столкнетесь с настоящими призраками... Не забудьте оглянуться через плечо...</p>
+        <img src="ghost1.png" alt="Призрак 1" class="ghost">
+    </section>
+    <section id="contact" class="horror-section">
+        <h2 class="blood-text">Контакты</h2>
+        <p class="blood-text">Если вы хотите связаться с нами и поделиться своими ужасающими историями, то вы можете отправить нам сообщение или позвонить по указанным контактам. Осторожно, наши линии могут быть "загружены" вне дня... Оставайтесь на связи, но помните, кто-то всегда слушает...</p>
+        <img src="ghost2.png" alt="Призрак 2" class="ghost">
+    </section>
+
+    <!-- Аудиоэлемент для страшного звука (начинает воспроизведение автоматически и не может быть отключен) -->
+    <audio id="scary-audio" autoplay loop controls="false" style="display: none">
+        <source src="scary-sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
