@@ -1,0 +1,73 @@
+/* Стили для body и header */
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Черный фон */
+    color: #ff5722; /* Оранжевый цвет текста */
+}
+
+.dark-header {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #ff5722; /* Оранжевый цвет текста */
+}
+
+/* Стили для навигации */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff5722; /* Оранжевый цвет для ссылок */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Стили для секций */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.horror-section {
+    background-image: url('dark-horror-background.jpg'); /* Мрачный фон */
+    background-size: cover;
+    color: #ff5722; /* Оранжевый цвет текста */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 60px;
+}
+
+/* Стили для элементов ужаса */
+.horror-section h2 {
+    color: #ff5722; /* Оранжевый цвет для заголовков */
+}
+
+.blood-text {
+    color: #ff0000; /* Красный цвет для текста */
+    font-weight: bold;
+}
+
+/* Стили для анимации */
+@keyframes ghost-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ghost {
+    animation: ghost-fade 2s ease-in-out infinite;
+}
